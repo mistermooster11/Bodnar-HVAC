@@ -8,50 +8,50 @@ export interface Project {
 
 export const projects: Project[] = [
   {
-    id: "circuit-breaker",
-    title: "Circuit Breaker Troubleshooting",
-    location: "Wembley, London",
-    href: "/projects/circuit-breaker-troubleshooting/",
-    image: "/images/lopo1-1.jpg",
+    id: "furnace-repair",
+    title: "Furnace Repair & Diagnostic",
+    location: "Redwood City, CA",
+    href: "/service/furnace-repair/",
+    image: "/images/lopo1-1.jpg", // [TODO: Replace with real Bodnar job photo]
   },
   {
-    id: "industrial",
-    title: "Industrial Electrical Solutions",
-    location: "Camden, London",
-    href: "/projects/industrial-electrical-solutions/",
-    image: "/images/lopo2.jpg",
+    id: "heat-pump-install",
+    title: "Heat Pump System Installation",
+    location: "Palo Alto, CA",
+    href: "/service/heat-pump-systems/",
+    image: "/images/lopo2.jpg", // [TODO: Replace with real Bodnar job photo]
   },
   {
-    id: "generator",
-    title: "Generator Installation & Maintenance",
-    location: "Hackney, London",
-    href: "/projects/generator-installation-maintenance/",
-    image: "/images/lopo3.jpg",
+    id: "ac-maintenance",
+    title: "A/C Maintenance & Tune-Up",
+    location: "San Carlos, CA",
+    href: "/service/ac-maintenance/",
+    image: "/images/lopo3.jpg", // [TODO: Replace with real Bodnar job photo]
   },
   {
-    id: "ceiling-fan",
-    title: "Ceiling Fan & Fixture Wiring",
-    location: "Islington, London",
-    href: "/projects/ceiling-fan-fixture-wiring/",
-    image: "/images/lopo4.jpg",
+    id: "furnace-installation",
+    title: "New Furnace Installation",
+    location: "Menlo Park, CA",
+    href: "/service/furnace-installation/",
+    image: "/images/lopo4.jpg", // [TODO: Replace with real Bodnar job photo]
   },
   {
-    id: "panel-upgrade",
-    title: "Electrical Panel Upgrade",
-    location: "Southwark, London",
-    href: "/projects/electrical-panel-upgrade/",
-    image: "/images/lopo5.jpg",
+    id: "airflow-balancing",
+    title: "Airflow Balancing",
+    location: "Atherton, CA",
+    href: "/service/airflow-balancing/",
+    image: "/images/lopo5.jpg", // [TODO: Replace with real Bodnar job photo]
   },
   {
-    id: "outdoor-lighting",
-    title: "Outdoor Lighting Installation",
-    location: "Greenwich, London",
-    href: "/projects/outdoor-lighting-installation/",
-    image: "/images/lopo6.jpg",
+    id: "wall-heater-repair",
+    title: "Wall Heater Repair",
+    location: "Woodside, CA",
+    href: "/service/wall-heater-repair/",
+    image: "/images/lopo6.jpg", // [TODO: Replace with real Bodnar job photo]
   },
 ];
 
 export const projectsSectionContent = {
   subtitle: "PAST PROJECTS",
-  heading: "Top-grade electrical solutions built by trusted industry experts",
+  heading: "Precision HVAC work across the Mid-Peninsula — built to last",
 };

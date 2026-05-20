@@ -1,34 +1,48 @@
-// Process section data — 3 cột tab từ HTML gốc carpenter-electric.com
-// Layout: left 3 tabs | right crossfade bg image
+// Process section — 3 service category tabs
 
 export interface ProcessTab {
   index: string;
   title: string;
   href: string;
   items: string[];
-  bgKey: string; // key trong images
+  bgKey: string;
 }
 
 export const processTabs: ProcessTab[] = [
   {
     index: "01",
-    title: "Commercial",
-    href: "/service/commercial/",
-    items: ["Security Lighting", "Dock and Marine Lighting", "Site and Parking Lot"],
+    title: "Heating & Furnace",
+    href: "/service/furnace-repair/",
+    items: [
+      "Furnace Repair & Diagnostics",
+      "New Furnace Installation",
+      "Wall Heater Repair",
+      "Heating Maintenance & Tune-Ups",
+    ],
     bgKey: "processCommercial",
   },
   {
     index: "02",
-    title: "Industrial",
-    href: "/service/ev-charging-stations/",
-    items: ["Car Charging Stations", "Single home or Multiple Family solutions"],
+    title: "Air Conditioning",
+    href: "/service/ac-repair/",
+    items: [
+      "A/C Repair & Troubleshooting",
+      "Precision A/C Installation",
+      "A/C Maintenance & Tune-Ups",
+      "Heat Pump Systems",
+    ],
     bgKey: "processIndustrial",
   },
   {
     index: "03",
-    title: "Residential",
-    href: "/service/residential/",
-    items: ["Landscaping", "Dimming and Controls", "Accent Lighting"],
+    title: "Specialized Services",
+    href: "/service/airflow-balancing/",
+    items: [
+      "Airflow Balancing",
+      "Filtration System Upgrades",
+      "Dryer Duct Replacement",
+      "Thermostat Installation",
+    ],
     bgKey: "processResidential",
   },
 ];

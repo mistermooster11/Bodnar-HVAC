@@ -1,9 +1,9 @@
-// Mapping tất cả 37 ảnh trong public/images/
-// Nguồn: carpenter-electric.com
+// [TODO: Replace all AdobeStock placeholder images with real Bodnar HVAC job photos]
+// [TODO: Replace logo with Bodnar Heating & Air Conditioning, Inc. logo]
 
 export const images = {
   // Logo
-  logo: "/images/carpenter-electric-logo.webp",
+  logo: "/images/bodnar-hvac-logo.webp", // [TODO: Add Bodnar logo file]
 
   // Hero slider backgrounds (3 slides)
   heroSlide1: "/images/AdobeStock_982649324-1.jpg",

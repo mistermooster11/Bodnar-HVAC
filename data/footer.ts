@@ -1,17 +1,17 @@
 export const footerData = {
   top: {
     subtitle: "Work With Us",
-    heading: "LEADERS IN ELECTRICAL SOLUTIONS SINCE 1982",
+    heading: "TRUSTED HVAC SOLUTIONS SINCE 1976",
     button: { label: "Get In Touch", href: "/contact-us/" },
   },
   brand: {
     about:
-      "Carpenter-Electric proudly serves the entire Stuart-to-Miami region, along with Orlando, Daytona, Tampa, Gainesville, Naples, Cocoa Beach, and the Bahamas.",
+      "Bodnar Heating & Air Conditioning, Inc. proudly serves Redwood City and the entire Mid-Peninsula — including Atherton, Belmont, Burlingame, Foster City, Los Altos, Menlo Park, Millbrae, Palo Alto, Portola Valley, San Bruno, San Carlos, San Mateo, South San Francisco, Stanford, and Woodside.",
     socials: [
-      { name: "Facebook", href: "https://www.facebook.com/themelexus" },
-      { name: "X-Twitter", href: "https://x.com/themelexus" },
-      { name: "LinkedIn", href: "https://www.linkedin.com/" },
-      { name: "Instagram", href: "https://www.instagram.com" },
+      { name: "Facebook", href: "[TODO: Add Bodnar HVAC Facebook URL]" },
+      { name: "X-Twitter", href: "[TODO: Add Bodnar HVAC X/Twitter URL]" },
+      { name: "LinkedIn", href: "[TODO: Add Bodnar HVAC LinkedIn URL]" },
+      { name: "Instagram", href: "[TODO: Add Bodnar HVAC Instagram URL]" },
     ],
   },
   pages: {
@@ -20,22 +20,21 @@ export const footerData = {
       { label: "HOME", href: "/" },
       { label: "ABOUT US", href: "/about-us/" },
       { label: "SERVICES", href: "/services/" },
-      { label: "SAFETY", href: "/safety/" },
-      { label: "TESTIMONIALS", href: "/testimonial/" },
       { label: "CONTACT", href: "/contact-us/" },
+      { label: "BOOK ONLINE", href: "https://book.housecallpro.com/book/Bodnar-Heating-Air-Conditioning-Inc/18daf492b58446fc81924a0346ae2dfe?v2=true" },
     ],
   },
   contact: {
     heading: "CONTACT INFORMATION:",
-    address: "1333 53rd St, West Palm Beach, FL 33407",
-    phone: "561-848-7881",
-    email: "info@carpenter-electric.com",
-    license: "EC13011405",
+    address: "1251 Fifth Ave., Redwood City, CA 94063",
+    phone: "(650) 368-4408",
+    email: "info@bodnarhvac.com",
+    license: "[TODO: Confirm CA contractor license number]",
   },
   newsletter: {
     heading: "Newsletter",
   },
   bottom: {
-    copyright: "© Copyright 2026 Carpenter-Electric. All rights reserved.",
+    copyright: "© Copyright 2026 Bodnar Heating & Air Conditioning, Inc. All rights reserved.",
   },
 };

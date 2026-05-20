@@ -58,7 +58,7 @@ export default function Footer() {
             <Link href="/" className="ft-logo-link">
               <Image
                 src={images.logo}
-                alt="Carpenter Electric"
+                alt="Bodnar Heating & Air Conditioning"
                 width={202}
                 height={62}
                 style={{ height: "auto", width: "80%" }}

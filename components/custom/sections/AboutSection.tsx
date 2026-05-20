@@ -63,7 +63,7 @@ export default function AboutSection() {
               <img
                 ref={overlayImgRef}
                 src={images.aboutOverlay}
-                alt="Carpenter Electric team at work"
+                alt="Bodnar HVAC team at work"
                 className="about-img-overlay"
               />
               {/* Deco strip — right:72px top:50px, z-index 5, hidden tablet/mobile */}

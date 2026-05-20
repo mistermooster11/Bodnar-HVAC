@@ -4,31 +4,31 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper/modules";
 import "swiper/css";
 
-const PLACEHOLDER_IMG = "https://carpenter-electric.com/wp-content/uploads/2025/05/placeholder-786x629.jpg";
+const PLACEHOLDER_IMG = "/images/lopo1-1.jpg"; // [TODO: Replace with Bodnar HVAC blog images]
 
 const blogPosts = [
   {
-    title: "The Role of Smart Electrical Systems in Modern Homes",
-    date: "May 14, 2025",
-    categories: ["Accessories", "Power Tools"],
-    excerpt: "Going green and reducing your carbon footprint are important steps towards creating a more sustainable future for our planet…",
-    href: "https://carpenter-electric.com/accessories/the-role-of-smart-electrical-systems-in-modern-homes/",
+    title: "Why Your Furnace Short-Cycles — And What to Do About It",
+    date: "May 2025",
+    categories: ["Heating", "Furnace Repair"],
+    excerpt: "Short-cycling is one of the most common furnace complaints on the Mid-Peninsula. Here's what causes it and when to call a technician...",
+    href: "/contact-us/", // [TODO: Replace with real blog post URL when blog is live]
     img: PLACEHOLDER_IMG,
   },
   {
-    title: "How to Identify Signs of Electrical Wear and Tear at Home",
-    date: "May 14, 2025",
-    categories: ["Home Appliance", "Uncategorized"],
-    excerpt: "Understanding the warning signs of electrical wear and tear can help you prevent costly repairs and keep your family safe…",
-    href: "https://carpenter-electric.com/uncategorized/how-to-identify-signs-of-electrical-wear-and-tear-at-home/",
+    title: "Heat Pump vs. Gas Furnace: What Makes Sense in the Bay Area?",
+    date: "May 2025",
+    categories: ["Heat Pumps", "Installation"],
+    excerpt: "The Bay Area's mild winters make heat pumps a compelling option for many homeowners. Here's how to evaluate whether the switch makes sense for your home...",
+    href: "/contact-us/", // [TODO: Replace with real blog post URL when blog is live]
     img: PLACEHOLDER_IMG,
   },
   {
-    title: "Energy Efficiency Tips for Homeowners",
-    date: "May 14, 2025",
-    categories: ["Accessories"],
-    excerpt: "Making your home more energy efficient doesn't have to be complicated. Discover practical tips that can reduce your bills…",
-    href: "https://carpenter-electric.com/blog/",
+    title: "5 Signs Your HVAC System Needs Maintenance Before Summer",
+    date: "April 2025",
+    categories: ["A/C", "Maintenance"],
+    excerpt: "By the time your A/C fails on the first 90-degree day, it's too late for a tune-up. These warning signs mean it's time to schedule a visit now...",
+    href: "/contact-us/", // [TODO: Replace with real blog post URL when blog is live]
     img: PLACEHOLDER_IMG,
   },
 ];
@@ -40,7 +40,7 @@ export default function BlogSection() {
         <div className="blog-header">
           <p className="subtitle-badge" style={{ justifyContent: "center" }}>Blogs &amp; Articles</p>
           <h2 className="section-heading blog-heading">
-            Recent blog posts and news insignt
+            HVAC Tips &amp; Insights for Mid-Peninsula Homeowners
           </h2>
         </div>
 
@@ -63,7 +63,7 @@ export default function BlogSection() {
                   <div className="blog-card-categories">
                     {post.categories.map((cat, i) => (
                       <span key={cat}>
-                        <a href="/blog/">{cat}</a>
+                        <a href="/contact-us/">{cat}</a>
                         {i < post.categories.length - 1 && <span className="blog-dot" />}
                       </span>
                     ))}

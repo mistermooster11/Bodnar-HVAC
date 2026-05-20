@@ -1,8 +1,8 @@
 export const workWithUsContent = {
-  heading: "ELECTRICAL SOLUTIONS SINCE 1982",
+  heading: "HVAC SOLUTIONS SINCE 1976",
   paragraphs: [
-    "Since 1982, Carpenter Electric, Inc. has been the premier choice for clients who have the highest expectations. Understanding that our customers have an appreciation for long-term relationships, fervent loyalty and superior quality and service from their electrical contractors in West Palm, our commitment to excellence is unsurpassed.",
-    "At Carpenter Electric, Inc. we understand that whether you are building a home, an estate, a business or a neighborhood, what matters most is continuity of workmanship and unparalleled dedication. Our scope and skills can help you achieve the lighting you are looking for, from residential lighting in Miami to dock and marine lighting in West Palm. No matter what your needs, we can help you.",
+    "Since 1976, Bodnar Heating & Air Conditioning, Inc. has been the premier choice for homeowners across Redwood City and the Mid-Peninsula who expect honest work and lasting results. Three generations of family ownership have built a reputation for technical precision that few HVAC companies in the Bay Area can match.",
+    "Our Repair-First philosophy is what sets us apart. While most companies are incentivized to sell you a new system, our goal is to maximize the life of your existing equipment through expert diagnostics and precision maintenance. If another company has recommended a replacement, call us for a free second opinion.",
   ],
   backgroundImage: "/images/AdobeStock_766031197.jpg",
 };

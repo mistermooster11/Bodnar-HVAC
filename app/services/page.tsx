@@ -3,9 +3,9 @@ import ServicesHeroSection from "@/components/custom/sections/ServicesHeroSectio
 import ServicesGridSection from "@/components/custom/sections/ServicesGridSection";
 
 export const metadata = {
-  title: "Services | Carpenter Electric",
+  title: "HVAC Services | Bodnar Heating & Air Conditioning",
   description:
-    "Outstanding residential & commercial electrical services — available 24/7. EV charging, smart home, diagnostics, generator services and more.",
+    "Repair-First HVAC services for Redwood City and the Mid-Peninsula — furnace repair, A/C service, heat pump installation, maintenance, and specialized system services. EPA & BBB certified.",
 };
 
 export default function ServicesPage() {

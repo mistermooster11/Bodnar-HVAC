@@ -5,25 +5,25 @@ export interface Testimonial {
 
 export const testimonials: Testimonial[] = [
   {
-    name: "Carol B.",
+    name: "Erica M.",
     content:
-      "Just called to say how much she loves our company and said that Leighann is very nice and professional and that she always takes care of her very promptly. She also said that Danny was very nice and polite and thanks to him she can feel safe and have a nice weekend he is awesome. She also said she volunteers at the Hobe Sound Chamber of Commerce and they love us as well.",
+      "We used Bodnar for an HVAC repair and could not be happier with our experience. We had initially hired another company who honestly made the problem worse. John was super professional and knowledgeable. He fixed everything in a timely manner and even managed to get our replacement part under warranty. I'd use Bodnar again any day!",
   },
   {
-    name: "Danny I.",
+    name: "Ryan L.",
     content:
-      "Good morning all, We from the Transwestern team, wanted to take this opportunity to thank your entire team for a job well done over this past weekend. The replacement of the bus duct at 450 Las Olas went seamless from the start to the end considering the difficultness of the project. Miguel really carried his team through without frustration or signs of being tired, their focus and mindset was to get this project started and finished as quickly as possible paying special attention to details, safety, social distancing, and communication with Transwestern at all times. Special Kuddos to Miguel and his team.",
+      "The team really went above and beyond on our job. They did an excellent job with the recommendation and installation of our heat pump system. I am super happy with the work that the Bodnar team did. I only wish we had done it sooner! I highly highly recommend this company for any HVAC work you need done. Thanks guys!",
   },
   {
-    name: "Sean.",
+    name: "Verified Client",
     content:
-      "I was changing my kitchen island from a two-tier island to one flat surface. Therefore, the electrical outlets that were in the backsplash had to be removed and placed on the wall below the counter. George showed up on time, was courteous and professional. The job took about 4 hours and it went smoothly and was reasonably priced. I would use them in the future and recommend them to others.",
+      "Bodnar visited recently to perform annual maintenance on our furnace. Their technicians were on-time, courteous, and knowledgeable. After performing the service, they explained everything they found in plain language. Highly recommend.",
   },
 ];
 
 export const testimonialsSectionContent = {
-  subtitle: "Our client's",
-  heading: "Here's What our clients say",
+  subtitle: "Our clients'",
+  heading: "Here's What Our Clients Say",
   rating: "4.8",
   avatars: [
     "/images/testimo-avatar-4.jpg",

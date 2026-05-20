@@ -1,28 +1,28 @@
 export const whatWeDoContent = {
   subtitle: "WHAT WE DO",
-  heading: "Electrical Experience With Attention To Detail",
+  heading: "Repair-First HVAC With Attention To Every Detail",
   cta: { label: "Get Started", href: "/contact-us/" },
 };
 
 export const iconBoxes = [
   {
-    id: "energy",
+    id: "repair-first",
     iconClass: "caren-icon- caren-icon-save-energy",
-    title: "24/7 Electrical Services",
-    desc: "Our team always available to provide better and quick solution for electrical service needs.",
+    title: "Repair-First Philosophy",
+    desc: "We lead with skill, not sales pitches. Our goal is to fix your system — not replace it prematurely.",
   },
   {
     id: "pricing",
-    iconClass: null, // SVG inline
+    iconClass: null,
     svgId: "pricing",
-    title: "Transparent Pricing",
-    desc: "Clear, upfront quotes with no hidden fees, what you see is exactly what you pay.",
+    title: "Transparent, Objective Pricing",
+    desc: "We don't work on commission. Our billable diagnostics keep us 100% objective — you pay for expert truth, not hidden upsells.",
   },
   {
     id: "fast",
-    iconClass: null, // SVG inline
+    iconClass: null,
     svgId: "fast",
-    title: "Fast and Reliable",
-    desc: "Illuminate your surroundings with our energy-efficient and aesthetically pleasing lighting.",
+    title: "Owner-Operated Reliability",
+    desc: "John personally handles every estimate and repair. You'll always work with the same expert faces — no rotating crews.",
   },
 ];

@@ -15,7 +15,7 @@ export default function DesktopNav() {
       <Link href="/" className="header-logo">
         <Image
           src={images.logo}
-          alt="Carpenter Electric"
+          alt="Bodnar Heating & Air Conditioning"
           width={200}
           height={52}
           priority

@@ -15,59 +15,49 @@ export default function ApplyNowSection() {
     <section className="apply-now">
       {/* Intro */}
       <h2 className="apply-now__intro">
-        Interested in Joining Our Team?<br />
-        Follow these two easy steps below.
+        Ready to Get a Quote?<br />
+        Here&apos;s how to reach us.
       </h2>
 
-      {/* Step 1 */}
+      {/* Option 1 */}
       <h2 className="apply-now__step">
-        1. Click on the button below to fill out your employment application.
+        1. Book online — available 24/7, nothing due at booking.
       </h2>
       <a
         className="apply-now__btn"
-        href="https://carpenter-electric.com/employment-application/"
-      >
-        <ArrowIcon />
-        Employment Application
-      </a>
-
-      {/* Step 2 */}
-      <h2 className="apply-now__step">2. Upload your resume</h2>
-      <iframe
-        src="https://api.leadconnectorhq.com/widget/form/X3pSLr1eFmn0rGPrXVir"
-        className="apply-now__resume-iframe"
-        id="inline-X3pSLr1eFmn0rGPrXVir"
-        data-form-name="resume form"
-        data-height="493"
-        data-form-id="X3pSLr1eFmn0rGPrXVir"
-        title="Resume Upload Form"
-      />
-      <script src="https://link.msgsndr.com/js/form_embed.js" async />
-
-      {/* NOTE */}
-      <p className="apply-now__note">
-        NOTE: Please use the same email address in both the application form and
-        the resume form.
-      </p>
-
-      {/* Step 3 */}
-      <h2 className="apply-now__step">
-        3. Please take this Predictive Index Behavioral Assessment
-      </h2>
-      <a
-        className="apply-now__btn"
-        href="https://assessment.predictiveindex.com/bo/D03Q/Electrician_Jul2024_172633#page0"
+        href="https://book.housecallpro.com/book/Bodnar-Heating-Air-Conditioning-Inc/18daf492b58446fc81924a0346ae2dfe?v2=true"
         target="_blank"
         rel="noopener noreferrer"
       >
         <ArrowIcon />
-        Form Here
+        Book Online Now
+      </a>
+
+      {/* Option 2 */}
+      <h2 className="apply-now__step">2. Or call / text us directly</h2>
+      <a
+        className="apply-now__btn"
+        href="tel:6503684408"
+      >
+        <ArrowIcon />
+        (650) 368-4408
+      </a>
+
+      {/* Option 3 */}
+      <h2 className="apply-now__step">3. Or send us an email</h2>
+      <a
+        className="apply-now__btn"
+        href="mailto:info@bodnarhvac.com"
+      >
+        <ArrowIcon />
+        info@bodnarhvac.com
       </a>
 
       {/* Closing */}
       <p className="apply-now__closing">
-        We thank you for your interest in Carpenter Electric and look forward to
-        speaking with you soon.
+        We typically respond within one business day. Free estimates available
+        for equipment replacement — diagnostic visits are billable to keep our
+        advice 100% objective.
       </p>
     </section>
   );

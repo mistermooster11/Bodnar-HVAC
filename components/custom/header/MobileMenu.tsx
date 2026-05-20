@@ -52,7 +52,7 @@ export default function MobileMenu({ isOpen, onClose }: MobileMenuProps) {
           )
         )}
         <li className="mobile-nav-item mobile-phone">
-          <a href="tel:561-848-7881" className="mobile-nav-link">📞 561-848-7881</a>
+          <a href="tel:6503684408" className="mobile-nav-link">📞 (650) 368-4408</a>
         </li>
       </ul>
     </div>

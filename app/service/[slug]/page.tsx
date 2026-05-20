@@ -21,7 +21,7 @@ export async function generateMetadata({
   const detail = getServiceBySlug(slug);
   if (!detail) return {};
   return {
-    title: `${detail.title} | Carpenter Electric`,
+    title: `${detail.title} | Bodnar Heating & Air Conditioning`,
     description: detail.metaDescription,
   };
 }

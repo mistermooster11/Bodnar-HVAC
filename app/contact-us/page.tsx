@@ -6,9 +6,9 @@ import "@/styles/service-detail.css"; /* page-hero CSS */
 import "@/styles/contact.css";
 
 export const metadata: Metadata = {
-  title: "Contact Us | Carpenter Electric",
+  title: "Contact Us | Bodnar Heating & Air Conditioning",
   description:
-    "Contact us & let's collaborate! Call Us! Carpenter-Electric proudly serves the entire Stuart-to-Miami region. Address: 1333 53rd St, West Palm Beach, FL 33407. Phone: 561-848-7881.",
+    "Contact Bodnar HVAC — call or text (650) 368-4408. Serving Redwood City and the Mid-Peninsula. Address: 1251 Fifth Ave., Redwood City, CA 94063. Available 24/7.",
 };
 
 export default function ContactPage() {

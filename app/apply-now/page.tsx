@@ -5,15 +5,15 @@ import "@/styles/service-detail.css"; /* page-hero CSS */
 import "@/styles/apply-now.css";
 
 export const metadata: Metadata = {
-  title: "Apply Now | Carpenter Electric",
+  title: "Get a Quote | Bodnar Heating & Air Conditioning",
   description:
-    "Interested in joining the Carpenter Electric team? Fill out your employment application, upload your resume, and complete the Predictive Index Behavioral Assessment.",
+    "Request a free estimate or book a service call with Bodnar HVAC in Redwood City. Call or text (650) 368-4408 or use our online booking.",
 };
 
 export default function ApplyNowPage() {
   return (
     <>
-      <PageHeroSection title="Apply Now" />
+      <PageHeroSection title="Get a Quote" />
       <ApplyNowSection />
     </>
   );

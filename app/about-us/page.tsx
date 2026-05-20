@@ -7,9 +7,9 @@ import AboutTestimonialsSection from "@/components/custom/sections/AboutTestimon
 import "@/styles/about.css";
 
 export const metadata = {
-  title: "About Us | Carpenter Electric",
+  title: "About Us | Bodnar Heating & Air Conditioning",
   description:
-    "Learn about Carpenter Electric — West Palm Beach's trusted electricians since 1982. Our mission, core values, and why clients choose us.",
+    "Learn about Bodnar Heating & Air Conditioning, Inc. — Redwood City's trusted HVAC experts since 1976. Three generations of family expertise, Repair-First philosophy, and owner-operated service.",
 };
 
 export default function AboutUsPage() {

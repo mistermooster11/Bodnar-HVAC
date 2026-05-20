@@ -107,7 +107,7 @@ export default function TestimonialsSection() {
         <div className="testi-img-col" ref={imgRef}>
           <img
             src={sideImage}
-            alt="Carpenter Electric team"
+            alt="Bodnar HVAC team"
             className="testi-img"
             loading="lazy"
           />

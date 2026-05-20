@@ -113,7 +113,7 @@ export default function AboutTestimonialsSection() {
           <img
             ref={sideImgRef}
             src={sideImage}
-            alt="Carpenter Electric team"
+            alt="Bodnar HVAC team"
             width={668}
             height={640}
             className="about-testimonials__left-img"
