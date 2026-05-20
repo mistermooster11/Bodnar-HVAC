@@ -29,7 +29,7 @@ export const footerData = {
     address: "1251 Fifth Ave., Redwood City, CA 94063",
     phone: "(650) 368-4408",
     email: "info@bodnarhvac.com",
-    license: "[TODO: Confirm CA contractor license number]",
+    license: "CSLB# 444468",
   },
   newsletter: {
     heading: "Newsletter",

@@ -2,7 +2,7 @@ export default function HeaderTopbar() {
   return (
     <div className="header-topbar">
       <div className="container-site header-topbar-inner">
-        <span className="topbar-item topbar-license">EPA &amp; BBB Certified | Licensed &amp; Insured</span>
+        <span className="topbar-item topbar-license">CSLB# 444468 | EPA &amp; BBB Certified</span>
         <span className="topbar-divider" />
         <a href="mailto:info@bodnarhvac.com" className="topbar-item topbar-link">
           <svg className="topbar-svg" viewBox="0 0 24 24" fill="currentColor" width="14" height="14">
