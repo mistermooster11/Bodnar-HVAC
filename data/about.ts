@@ -1,4 +1,10 @@
-// Rule #8 — static content tách khỏi component
+export const whyChooseUs: string[] = [
+  "Repair-First philosophy — we fix before we replace",
+  "3rd-generation family business since 1976",
+  "Owner John handles every repair personally",
+  "60-day labor warranty on all repairs",
+];
+
 export const aboutChecklist = [
   "Repair-First Philosophy — We fix what others replace",
   "3rd-Generation Family Business Since 1976",
@@ -12,8 +18,6 @@ export const aboutContent = {
   body: "Bodnar Heating & Air Conditioning has been the trusted name in Redwood City since 1976. Led by John and Ted, our two-person team brings three generations of technical precision to every home. We don't employ commission-based reps — you get honest advice, not a sales pitch.",
   cta: { label: "More About Us", href: "/about-us/" },
 };
-
-// ─── About Us Page ────────────────────────────────────────────────────────────
 
 export const aboutMissionData = {
   subtitle: "Your Trusted HVAC Experts Serving Redwood City & the Mid-Peninsula",
@@ -31,7 +35,7 @@ export const aboutMissionData = {
     "All major brands serviced: Carrier, Bryant, Trane, Mitsubishi, Daikin",
     "EPA-certified & BBB-accredited with a 60-day labor warranty",
   ],
-  mainImage: "/images/AdobeStock_656843423.jpg", // [TODO: Replace with Bodnar HVAC team photo]
+  mainImage: "/images/AdobeStock_656843423.jpg",
   decoImage3: "/images/about-deco-3.png",
   decoCircle: "/images/about-deco.png",
   bannerDeco: "/images/about-baner-3.png",
@@ -41,7 +45,7 @@ export const aboutStatsData = {
   subtitle: "Proven Results",
   heading: "Where expertise meets integrity in",
   headingHighlight: "HVAC service",
-  body: "Whether you need an emergency repair or a full system replacement, Bodnar HVAC delivers honest diagnostics, transparent pricing, and lasting results. Call or text us anytime — we're available 24/7.",
+  body: "Whether you need an emergency repair or a full system replacement, Bodnar HVAC delivers honest diagnostics, transparent pricing, and lasting results. Call or text us anytime.",
   ctaLabel: "Contact Us",
   ctaHref: "/contact-us",
   decoRight: "/images/about-deco-right.png",
@@ -72,8 +76,8 @@ export const aboutTalentsData = {
   ],
   ctaLabel: "Get Started",
   ctaHref: "/contact-us",
-  image1: "/images/AdobeStock_748806367-scaled.jpg", // [TODO: Replace with John Bodnar photo]
-  image2: "/images/AdobeStock_1221924313.jpg", // [TODO: Replace with Ted Becker / installation photo]
+  image1: "/images/AdobeStock_748806367-scaled.jpg",
+  image2: "/images/AdobeStock_1221924313.jpg",
   decoImage: "/images/about-deco.png",
 };
 
@@ -109,17 +113,17 @@ export const aboutTestimonialsData = {
     {
       name: "Erica M.",
       avatar: "/images/testimo-avatar-4.jpg",
-      text: "We used Bodnar for an HVAC repair and could not be happier with our experience. We had initially hired another company who honestly made the problem worse. John was super professional and knowledgeable. He fixed everything in a timely manner and even managed to get our replacement part under warranty. I'd use Bodnar again any day!",
+      text: "We used Bodnar for an HVAC repair and could not be happier with our experience. John was super professional and knowledgeable. He fixed everything in a timely manner and even managed to get our replacement part under warranty.",
     },
     {
       name: "Ryan L.",
       avatar: "/images/testimo-avatar-5.jpg",
-      text: "The team really went above and beyond on our job. They did an excellent job with the recommendation and installation of our heat pump system. I am super happy with the work that the Bodnar team did. I only wish we had done it sooner! I highly highly recommend this company for any HVAC work you need done. Thanks guys!",
+      text: "The team really went above and beyond on our job. They did an excellent job with the recommendation and installation of our heat pump system. I highly recommend this company for any HVAC work you need done.",
     },
     {
       name: "Verified Client",
       avatar: "/images/testimo-avatar-6.jpg",
-      text: "John was knowledgeable, kind, and fair. He diagnosed the issue quickly and fixed it the same day. As a homeowner in Palo Alto dealing with an older furnace, it was refreshing to work with someone who actually tried to repair before recommending a replacement.",
+      text: "John was knowledgeable, kind, and fair. He diagnosed the issue quickly and fixed it the same day. It was refreshing to work with someone who actually tried to repair before recommending a replacement.",
     },
   ],
 };

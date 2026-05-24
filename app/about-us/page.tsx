@@ -1,25 +1,33 @@
-import React from "react";
-import AboutHeroSection from "@/components/custom/sections/AboutHeroSection";
-import AboutMissionSection from "@/components/custom/sections/AboutMissionSection";
-import AboutStatsSection from "@/components/custom/sections/AboutStatsSection";
-import AboutTalentsSection from "@/components/custom/sections/AboutTalentsSection";
-import AboutTestimonialsSection from "@/components/custom/sections/AboutTestimonialsSection";
-import "@/styles/about.css";
+import type { Metadata } from "next";
+import "@/styles/homepage.css";
+import "@/styles/inner-pages.css";
+import PageHeroSection from "@/components/custom/page-hero/PageHeroSection";
+import AboutSection from "@/components/custom/about/AboutSection";
+import WhyChooseSection from "@/components/custom/why-choose/WhyChooseSection";
+import TestimonialsSection from "@/components/custom/testimonials/TestimonialsSection";
+import CTAFormSection from "@/components/custom/cta/CTAFormSection";
 
-export const metadata = {
-  title: "About Us | Bodnar Heating & Air Conditioning",
+export const metadata: Metadata = {
+  title: "About Us | Bodnar Heating & Air Conditioning | Redwood City, CA",
   description:
-    "Learn about Bodnar Heating & Air Conditioning, Inc. — Redwood City's trusted HVAC experts since 1976. Three generations of family expertise, Repair-First philosophy, and owner-operated service.",
+    "Family-owned HVAC experts since 1976. John and Ted Bodnar bring 3rd-generation expertise and a Repair-First philosophy to every job across the Mid-Peninsula.",
 };
 
-export default function AboutUsPage() {
+export default function AboutPage() {
   return (
     <>
-      <AboutHeroSection />
-      <AboutMissionSection />
-      <AboutStatsSection />
-      <AboutTalentsSection />
-      <AboutTestimonialsSection />
+      <PageHeroSection
+        title="About Us"
+        subtitle="3rd-generation family HVAC experts serving the Mid-Peninsula since 1976 — repair-first, owner-operated, no commission sales reps."
+        breadcrumbs={[
+          { label: "Home", href: "/" },
+          { label: "About Us" },
+        ]}
+      />
+      <AboutSection />
+      <WhyChooseSection />
+      <TestimonialsSection />
+      <CTAFormSection />
     </>
   );
 }
