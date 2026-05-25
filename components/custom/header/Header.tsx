@@ -66,7 +66,7 @@ export default function Header() {
         <div className="header__logo">
           <Link href="/">
             <Image
-              src="/images/bodnar-hvac-logo.png"
+              src="/logo/bodnar-hvac-logo_light_background.png"
               alt="Bodnar Heating & Air Conditioning"
               width={200}
               height={44}

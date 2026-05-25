@@ -1,7 +1,6 @@
 "use client";
 
 import Link from "next/link";
-import Image from "next/image";
 import { useEffect, useRef } from "react";
 
 export default function HeroSection() {
@@ -52,14 +51,24 @@ export default function HeroSection() {
 
   return (
     <section className="hero">
-      {/* Static image background */}
+      {/* Cloudflare Stream video background */}
       <div className="hero__video-bg">
-        <Image
-          src="/images/AdobeStock_1568613684.jpg"
-          alt="HVAC technician at work"
-          fill
-          priority
-          style={{ objectFit: "cover", objectPosition: "center" }}
+        <iframe
+          src="https://customer-ip9lnkk65px0t3ak.cloudflarestream.com/d89c4c77e58f76f26c7fe30959501840/iframe?autoplay=true&muted=true&loop=true&controls=false&playsinline=true"
+          style={{
+            position: "absolute",
+            top: "50%",
+            left: "50%",
+            width: "177.78vh",
+            height: "56.25vw",
+            minWidth: "100%",
+            minHeight: "100%",
+            transform: "translate(-50%, -50%)",
+            border: "none",
+            pointerEvents: "none",
+          }}
+          allow="autoplay; fullscreen"
+          aria-hidden="true"
         />
       </div>
 

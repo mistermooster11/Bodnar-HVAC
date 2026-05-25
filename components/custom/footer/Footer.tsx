@@ -10,7 +10,7 @@ export default function Footer() {
         <div className="footer__brand">
           <Link href="/">
             <Image
-              src="/images/bodnar-hvac-logo.png"
+              src="/logo/bodnar-hvac-logo_dark_background.png"
               alt="Bodnar Heating & Air Conditioning"
               width={200}
               height={58}
