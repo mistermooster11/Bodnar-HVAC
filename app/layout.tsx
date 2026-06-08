@@ -25,7 +25,7 @@ export default function RootLayout({
     <html lang="en" className={cn("font-sans", geist.variable)}>
       <body>
         <PageTransition />
-        <SalePopup businessName="Bodnar Heating & Air Conditioning" expiryDate="June 15, 2026" trade="HVAC contractors" />
+        <SalePopup businessName="Bodnar Heating & Air Conditioning" expiryDate="June 20, 2026" trade="HVAC contractors" />
         <Header />
         <main>{children}</main>
         <Footer />
