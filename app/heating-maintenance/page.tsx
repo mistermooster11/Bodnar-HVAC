@@ -27,7 +27,7 @@ export default function HeatingMaintenancePage() {
       />
       <ServiceDetailSection
         activeService="Heating Maintenance & Tune-Ups"
-        sidebarImage="/images/AdobeStock_1370273000-1.jpg"
+        sidebarImage="/images/process-heating.webp"
         sidebarImageWidth={535}
         sidebarImageHeight={643}
         heading="Annual Heating Maintenance — Done Right"

@@ -27,7 +27,7 @@ export default function HeatPumpPage() {
       />
       <ServiceDetailSection
         activeService="Heat Pump Systems"
-        sidebarImage="/images/AdobeStock_1429423159.jpg"
+        sidebarImage="/images/process-ac.webp"
         sidebarImageWidth={535}
         sidebarImageHeight={643}
         heading="Heat Pump Installation & Service"

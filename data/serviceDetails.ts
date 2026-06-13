@@ -26,7 +26,7 @@ export const serviceDetails: ServiceDetail[] = [
     content: [
       {
         type: "image",
-        src: "/images/AdobeStock_1661331836-1.jpg",
+        src: "/images/process-heating.webp",
         alt: "Furnace repair and diagnostics — Bodnar HVAC Redwood City",
       },
       { type: "h2", text: "REPAIR-FIRST FURNACE DIAGNOSTICS" },
@@ -64,7 +64,7 @@ export const serviceDetails: ServiceDetail[] = [
     content: [
       {
         type: "image",
-        src: "/images/AdobeStock_1738812468-e1774389187161.jpg",
+        src: "/images/process-heating.webp",
         alt: "Furnace installation — Bodnar HVAC Redwood City",
       },
       { type: "h2", text: "FURNACE REPLACEMENT DONE RIGHT" },
@@ -100,7 +100,7 @@ export const serviceDetails: ServiceDetail[] = [
     content: [
       {
         type: "image",
-        src: "/images/AdobeStock_830008704-1.jpg",
+        src: "/images/process-specialized.webp",
         alt: "Wall heater repair — Bodnar HVAC Redwood City",
       },
       { type: "h2", text: "WALL HEATER REPAIR FOR MID-PENINSULA HOMES" },
@@ -136,7 +136,7 @@ export const serviceDetails: ServiceDetail[] = [
     content: [
       {
         type: "image",
-        src: "/images/AdobeStock_1429423159.jpg",
+        src: "/images/AdobeStock_1861036262-e1774388962336.jpg",
         alt: "Heat pump systems — Bodnar HVAC Redwood City",
       },
       { type: "h2", text: "HEAT PUMP SYSTEMS — REPAIR & INSTALLATION" },
@@ -173,7 +173,7 @@ export const serviceDetails: ServiceDetail[] = [
     content: [
       {
         type: "image",
-        src: "/images/AdobeStock_1568613684.jpg",
+        src: "/images/AdobeStock_1861036262-e1774388962336.jpg",
         alt: "AC repair and troubleshooting — Bodnar HVAC Redwood City",
       },
       { type: "h2", text: "EXPERT A/C REPAIR ACROSS THE MID-PENINSULA" },
@@ -210,7 +210,7 @@ export const serviceDetails: ServiceDetail[] = [
     content: [
       {
         type: "image",
-        src: "/images/AdobeStock_1781483078.jpg",
+        src: "/images/process-ac.webp",
         alt: "AC installation — Bodnar HVAC Redwood City",
       },
       { type: "h2", text: "PRECISION A/C INSTALLATION" },
@@ -241,7 +241,7 @@ export const serviceDetails: ServiceDetail[] = [
     content: [
       {
         type: "image",
-        src: "/images/generator-1.jpg",
+        src: "/images/process-ac.webp",
         alt: "AC maintenance and tune-up — Bodnar HVAC Redwood City",
       },
       { type: "h2", text: "A/C MAINTENANCE — REAL PERFORMANCE TESTING" },
@@ -277,7 +277,7 @@ export const serviceDetails: ServiceDetail[] = [
     content: [
       {
         type: "image",
-        src: "/images/AdobeStock_1370273000-1.jpg",
+        src: "/images/process-heating.webp",
         alt: "Heating maintenance and tune-up — Bodnar HVAC Redwood City",
       },
       { type: "h2", text: "HEATING MAINTENANCE THAT ACTUALLY PREVENTS BREAKDOWNS" },
@@ -310,7 +310,7 @@ export const serviceDetails: ServiceDetail[] = [
     content: [
       {
         type: "image",
-        src: "/images/AdobeStock_1661331836-1.jpg",
+        src: "/images/process-heating.webp",
         alt: "Airflow balancing — Bodnar HVAC Redwood City",
       },
       { type: "h2", text: "AIRFLOW BALANCING — SOLVING THE HOT AND COLD ROOM PROBLEM" },
@@ -340,7 +340,7 @@ export const serviceDetails: ServiceDetail[] = [
     content: [
       {
         type: "image",
-        src: "/images/AdobeStock_1738812468-e1774389187161.jpg",
+        src: "/images/process-specialized.webp",
         alt: "Filtration system upgrades — Bodnar HVAC Redwood City",
       },
       { type: "h2", text: "FILTRATION SYSTEM UPGRADES" },
@@ -369,7 +369,7 @@ export const serviceDetails: ServiceDetail[] = [
     content: [
       {
         type: "image",
-        src: "/images/AdobeStock_830008704-1.jpg",
+        src: "/images/process-heating.webp",
         alt: "Dryer duct replacement — Bodnar HVAC Redwood City",
       },
       { type: "h2", text: "DRYER DUCT REPLACEMENT" },
@@ -399,7 +399,7 @@ export const serviceDetails: ServiceDetail[] = [
     content: [
       {
         type: "image",
-        src: "/images/AdobeStock_1429423159.jpg",
+        src: "/images/process-specialized.webp",
         alt: "Thermostat installation — Bodnar HVAC Redwood City",
       },
       { type: "h2", text: "THERMOSTAT INSTALLATION & SMART HOME INTEGRATION" },

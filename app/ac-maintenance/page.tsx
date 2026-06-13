@@ -27,7 +27,7 @@ export default function ACMaintenancePage() {
       />
       <ServiceDetailSection
         activeService="AC Maintenance & Tune-Ups"
-        sidebarImage="/images/AdobeStock_1781483078.jpg"
+        sidebarImage="/images/process-specialized.webp"
         sidebarImageWidth={535}
         sidebarImageHeight={643}
         heading="AC Maintenance That Prevents Costly Breakdowns"

@@ -27,7 +27,7 @@ export default function FurnaceRepairPage() {
       />
       <ServiceDetailSection
         activeService="Furnace Repair & Diagnostics"
-        sidebarImage="/images/AdobeStock_1661331836-1.jpg"
+        sidebarImage="/images/process-heating.webp"
         sidebarImageWidth={535}
         sidebarImageHeight={643}
         heading="Expert Furnace Repair — Fixed Right the First Time"

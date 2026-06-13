@@ -27,7 +27,7 @@ export default function ACRepairPage() {
       />
       <ServiceDetailSection
         activeService="AC Repair & Troubleshooting"
-        sidebarImage="/images/AdobeStock_1568613684.jpg"
+        sidebarImage="/images/AdobeStock_1861036262-e1774388962336.jpg"
         sidebarImageWidth={535}
         sidebarImageHeight={643}
         heading="AC Repair You Can Count On"
